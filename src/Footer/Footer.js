@@ -13,7 +13,7 @@ const Footer = () => {
 			<button type="submit">Subscribe</button>
 		</div>
 
-		<p className="copyright">&copy;2016 Sarah Holden</p>
+		<p className="copyright">&copy;2019 Kanjamad-GA</p>
 	</footer>
 
     )
