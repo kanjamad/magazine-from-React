@@ -329,3 +329,69 @@ footer .wrap {
 	padding: 1rem 0 .2rem;
 }
 
+/* ----------------------------------------
+Media Queries
+------------------------------------------- */
+@media only screen and (max-width: 790px) {
+	nav a {
+		padding: .2rem 2rem;
+	}
+	.col-third {
+		width: 100%;
+	}
+	.articles button {
+		margin-top: .5rem;
+	}
+
+	.col-third img {
+		display: block;
+		margin: 3rem auto 1rem;
+	}
+
+	.col-third h3 {
+		margin-bottom: .5rem;
+	}
+
+	.col-third:first-of-type img {
+		margin-top: 0;
+	}
+
+
+
+
+}
+
+@media only screen and (max-width: 560px) {
+	html {
+		font-size: 14px;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav {
+		background-color: transparent;
+	}
+
+	.hamburger {
+		display: block;
+		color: #fff;
+		font-size: 1.7rem;
+		position: absolute;
+		top: 10px;
+		left: 2px;
+	}
+
+	.col-half {
+		width: 100%;
+	}
+
+	footer button {
+		width: 300px;
+	}
+	
+	footer input {
+		margin-right: 0;
+	}
+}
